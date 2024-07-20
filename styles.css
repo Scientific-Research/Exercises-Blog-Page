@@ -25,54 +25,77 @@ body {
   /* width: 1140px; */
   /* background-color: red; */
   /* border: 2px solid #333; */
-  max-width: 1140px;
+  max-width: 1140px; /* ONLY WITH THIS ONE COMMAND, WE CAN MAKE IT RESPONSIVE FOR DIFFERENT DEVICES - IT COVERS A GOOD RESPONSIVENESS TILL MAXIMUM 1140px WHICH IS MORE THAN A NORMAL RESOLUTION FOR A LAPTOP!*/
   margin: 0 auto;
 }
 
 .second-section {
+  /* WHEN I GIVE PADDING HERE, IT WILL NOT WORK CORRECTLY FOR SMALL DEVICES, THAT'S WHY I COMMENTED IT OUT! */
   /* padding: 3rem 0 2rem 2rem; */
-  padding: 3rem;
+  /* padding: 3rem; */
 }
 
-/* h1,
+h1,
 h2,
-h4,
-ul,
-p {
-  margin-bottom: 2rem;
-} */
-/* 
+h3 {
+  color: black;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 3rem;
+}
 
 h1 {
-  font-size: 5rem;
-  font-weight: bold;
+  margin-top: 3rem;
+  font-size: 5.61rem;
 }
 
 h2 {
-  font-size: 4rem;
-  font-weight: bold;
+  font-size: 4.209rem;
 }
 
-h4 {
-  font-size: 3rem;
-  font-weight: bold;
+h3 {
+  font-size: 3.157rem;
+}
+
+/* h4 {
+  font-size: 2.369rem;
+}
+
+h5 {
+  font-size: 1.777rem;
+}
+
+h6 {
+  font-size: 1.333rem;
 } */
 
-ul {
+ul,
+ol {
   padding-left: 3rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
 
+ul li:last-child {
+  margin-bottom: 3rem;
+}
+
+ol li {
+  margin-bottom: 2rem;
+}
+
 img {
   width: 100%;
+  margin-bottom: 3rem;
   /* height: 250px; */
   /* object-fit: cover; */
 }
 
 p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: "PT Serif", "Times New Roman", Times, serif;
   font-style: italic;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
