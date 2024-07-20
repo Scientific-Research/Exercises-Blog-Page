@@ -14,30 +14,34 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  /* margin-top: 5rem; */
   font-size: 1.8rem;
   color: #222;
+  /* background-color: #aaa; */
+  padding: 2rem; /*to bring the entire body for 20px in front!*/
+  /* border: 2px solid #333; */
 }
 
 .container {
   /* width: 1140px; */
-  max-width: 1140px;
-  padding: 2rem 5rem 0 5rem;
+  /* background-color: red; */
   /* border: 2px solid #333; */
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 .second-section {
-  padding: 3rem 0 0 1rem;
+  /* padding: 3rem 0 2rem 2rem; */
+  padding: 3rem;
 }
 
-h1,
+/* h1,
 h2,
 h4,
 ul,
 p {
   margin-bottom: 2rem;
-}
+} */
+/* 
 
 h1 {
   font-size: 5rem;
@@ -52,7 +56,7 @@ h2 {
 h4 {
   font-size: 3rem;
   font-weight: bold;
-}
+} */
 
 ul {
   padding-left: 3rem;
